@@ -43,7 +43,7 @@ router.get('/tracking', function(req, res, next) {
 });
 
 router.get('/updateinfo', function(req, res, next) {
-  res.render('undateinfo');
+  res.render('updateinfo');
 });
 
 module.exports = router;
